@@ -316,7 +316,7 @@ class FormState extends State<Form> {
         SemanticsService.announce(errorMessage, directionality, assertiveness: Assertiveness.assertive);
       }
     }
-    return !hasError;
+    return !hasError; 
   }
 }
 
